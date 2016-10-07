@@ -1,5 +1,5 @@
-network automation y'all
+I've decided to split this into 2 repos, one for [the Vagrant setup](https://github.com/bordeltabernacle/ansible_networking_vagrant_setup), the other
+with all my [proof of concept playbooks](https://github.com/bordeltabernacle/ansible_network_automation_poc) in.
 
-`$ ansible routers -m raw -a "executable='' show ver" -i shared/routers.txt`
-
-`$ scp shared/images/c2900-universalk9-mz.SPA.154-3.M3.bin grimes@192.168.0.1:flash0:/c2900-universalk9-mz.SPA.154-3.M3.bin`
+So, I'm gonna leave this repo as is, and any updates will be in the above
+mentioned repos instead.
